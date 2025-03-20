@@ -19,7 +19,7 @@ jobs:
 
   docker-deployment:
     runs-on: self-hosted
-    needs: test-runner  # Ensures Docker deployment starts only after the test job completes
+    needs: test-runner  
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
