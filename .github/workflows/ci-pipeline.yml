@@ -2,7 +2,7 @@ name: CI/CD Pipeline with Docker
 
 on: 
   - push
-  - pull_request //ci cd pipeline
+  - pull_request 
 
 jobs:
   test-runner:
